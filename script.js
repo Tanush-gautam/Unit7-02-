@@ -1,10 +1,10 @@
-//connect "results" button to "random" function
-document.getElementById('result').addEventListener('click',randomizer)
+// connect "results" button to "random" function
+document.getElementById('result').addEventListener('click', randomizer)
 let randomNumber = 0
 let userGuess = 0
 
 function randomizer () {
-  //get number typed in by users and covert to an integer
+  // get number typed in by users and covert to an integer
   userGuess = document.getElementById('input').value
   userGuess = parseInt(userGuess)
 
